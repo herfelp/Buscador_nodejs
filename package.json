@@ -1,0 +1,23 @@
+{
+  "name": "buscador_nodejs",
+  "version": "1.0.0",
+  "description": "proyecto de un buscador js para examen de nextu",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herfelp/Buscador_nodejs.git"
+  },
+  "author": "hernan felipe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herfelp/Buscador_nodejs/issues"
+  },
+  "homepage": "https://github.com/herfelp/Buscador_nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4"
+  }
+}
