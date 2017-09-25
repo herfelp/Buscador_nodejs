@@ -11,7 +11,7 @@ app.use(express.static(__dirname + '/public/img'));
 app.use(express.static("public"))
 
 app.get("/img/sprite-skin-flat.png", function(req, res) {
-  res.sendFile(__dirname + '/public/img/sprite-skin-flat.png');
+  res.sendFile(__dirname + '/public/img/sprite-skin-flat.png'); 
   });
 
 
