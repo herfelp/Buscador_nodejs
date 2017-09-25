@@ -8,6 +8,12 @@ const express = require("express"),
 app.use(express.static(__dirname + '/public/js'));
 app.use(express.static(__dirname + '/public/css'));
 app.use(express.static(__dirname + '/public/img'));
+app.use(express.static("public"))
+
+app.get("/img/sprite-skin-flat.png", function(req, res) {
+  res.sendFile(__dirname + '/public/img/sprite-skin-flat.png');
+  });
+
 
 app.get("/", function(req, res) {
   res.sendFile(__dirname + '/public/index.html');
