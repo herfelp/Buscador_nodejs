@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $('select').material_select();
+  setForm()
 
 });
 
@@ -17,7 +18,6 @@ function setSearch() {
 
 setSearch()
 
-setForm()
 
 function unicos(array) {
   return array.filter(function(el, index, arr) {
